@@ -1,0 +1,39 @@
+body {
+  background-image: url(https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg);
+  background-size: cover;
+}
+
+img {
+  width: 10rem;
+  border-radius: 7rem;
+  border: 1px solid black;
+  /* padding: 0.2rem; */
+  margin-top: 2.5rem;
+  /* background-color: white; */
+}
+
+div {
+  width: 50% auto;
+  margin: 40px 350px 40px 350px;
+  padding: 0px 40px 40px 40px;
+  text-align: center;
+  color: white;
+  /* overlay */
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  /* opacity: 0.5; */
+  /* z-index: 1001; */
+}
+
+#subtitle {
+  font-size: 20px;
+}
+
+#title {
+  font-size: 30px;
+  position: relative;
+}
+
+#describtion {
+  font-size: 12px;
+}

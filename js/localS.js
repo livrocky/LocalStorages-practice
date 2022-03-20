@@ -2,8 +2,17 @@ const btnEl = document.getElementById("btn1");
 const h2El = document.querySelector("h2");
 const formEl = document.forms[0];
 const ulEl = document.querySelector(".names");
+let total = localStorage.getItem("total") === null ? 0 : localStorage.getItem("total");
+// let total;
 //is storage
-let total = 0;
+
+// if (localStorage.getItem("total") == null) {
+//   total = 0;
+// } else {
+//   total = localStorage.getItem("total");
+// }
+
+h2El.innerText = total;
 btnEl.addEventListener("click", () => {
   h2El.textContent = ++total;
   //i storage
