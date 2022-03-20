@@ -12,7 +12,7 @@ let total = localStorage.getItem("total") === null ? 0 : localStorage.getItem("t
 //   total = localStorage.getItem("total");
 // }
 
-h2El.innerText = total;
+h2El.textContent = total;
 btnEl.addEventListener("click", () => {
   h2El.textContent = ++total;
   //i storage
